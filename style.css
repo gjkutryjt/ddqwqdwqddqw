@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Manrope', sans-serif;
+    }
+}
+@layer components {
+    .container {
+        @apply max-w-[1080px]
+    }
+}
+
+.bgheron{
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+}
+
+.boxshafod {
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
